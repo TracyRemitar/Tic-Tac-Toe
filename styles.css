@@ -1,0 +1,35 @@
+.background {
+    background: linear-gradient(to bottom, darkslategrey, black);
+    height: 98vh;
+    padding-top: 1px;
+}
+.title {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 500px;
+}
+.tiles {
+    color: white;
+    border: 3px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.tiles.winning {
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}

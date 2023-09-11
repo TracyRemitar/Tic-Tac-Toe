@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tic Tac Toe </title>
+</head>
+<body>
+    <!--Background Color gradient -->
+    <main class="background">
+        <!--Title (top of board)-->
+        <section class="title">
+            <h1>    
+                <span style="color:white;">Tic</span>
+                •
+                <span style="color: #FF6347;">Tac</span>
+                •
+                <span style="color: white;">Toe</span>
+            </h1>
+        </section>
+        <!--Board Containers-->
+        <section class="container">
+            <div class="tiles" id="cell-0" onclick="makeMove(this)"></div>
+            <div class="tiles" id="cell-1" onclick="makeMove(this)"></div>
+            <div class="tiles" id="cell-2" onclick="makeMove(this)"></div>
+            <div class="tiles" id="cell-3" onclick="makeMove(this)"></div>
+            <div class="tiles" id="cell-4" onclick="makeMove(this)"></div>
+            <div class="tiles" id="cell-5" onclick="makeMove(this)"></div>
+            <div class="tiles" id="cell-6" onclick="makeMove(this)"></div>
+            <div class="tiles" id="cell-7" onclick="makeMove(this)"></div>
+            <div class="tiles" id="cell-8" onclick="makeMove(this)"></div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
